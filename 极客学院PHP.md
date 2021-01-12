@@ -30,6 +30,7 @@
 安装XAMPP、PhpStorm、Cygwin
 # PHP语法基础
 ## PHP标记符
+phptag.php
 ``` HTML
 <!DOCTYPE html>
 <html>
@@ -45,3 +46,15 @@ Hello HTML<br>
 </body>
 </html>
 ```
+## 常量与变量
+* 变量
+    ``` PHP
+        $a = 10;
+    ```
+* 常量
+    ``` PHP
+    const THE_VALUE = 100;
+    ```
+    ``` PHP
+    define('THE_VALUE', 100);
+    ```
