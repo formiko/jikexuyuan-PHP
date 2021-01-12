@@ -71,3 +71,34 @@ function add($a, $b) {
     return $a + $b;
 }
 ```
+# 流程控制
+* if else
+    ``` PHP
+    if($score >= 90) {
+        return '优秀';
+    } elseif ($score >= 80) {
+        return '良好';
+    } elseif ($score >= 70) {
+        return '好';
+    } elseif ($score >= 60) {
+        return '可以';
+    } else {
+        return '差';
+    }
+    ```
+* switch
+    ``` PHP
+    switch(intval($score/10)) {
+        case 10:
+        case 9:
+            return '优秀';
+        case 8:
+            return '良好';
+        case 7:
+            return '好';
+        case 6:
+            return '可以';
+        default:
+            return '差';
+    }
+    ```
