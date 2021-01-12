@@ -1,12 +1,12 @@
 # PHP基本介绍
 ## PHP的历史
-1994年 用Perl创造，后用C重写
-1995年 以Personal Home Tools(PHP Tools)为名发布PHP1和PHP2
-1997年 重写解析器并改称 PHP: Hypertext Preprocessor
-1998年 正式发布PHP3
-1999年 成立 Zend 公司
-2000年 发布PHP4
-2004年 发布PHP5
+1994年 用Perl创造，后用C重写  
+1995年 以Personal Home Tools(PHP Tools)为名发布PHP1和PHP2  
+1997年 重写解析器并改称 PHP: Hypertext Preprocessor  
+1998年 正式发布PHP3  
+1999年 成立 Zend 公司  
+2000年 发布PHP4  
+2004年 发布PHP5  
 ## PHP的优点
 3. 开发效率高
 4. 跨平台
