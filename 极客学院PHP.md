@@ -23,3 +23,8 @@
 8. ZendStudio
 9. PhpStorm
 12. SCP：上传下载文件命令
+# PHP开发环境搭建
+## 开发PHP所需要的集成开发环境
+* 软件环境：XAMPP PhpStorm Firefox
+## 在Windows平台搭建PHP集成开发环境
+安装XAMPP、PhpStorm、Cygwin
