@@ -58,3 +58,16 @@ Hello HTML<br>
     ``` PHP
     define('THE_VALUE', 100);
     ```
+    这两种方法是有区别的
+# 函数
+``` PHP
+function traceNum($a, $b) {
+//    echo 'a = ', $a, ' , b = ', $b, '<br>';
+    echo "a =$a, b = $b<br>";
+}
+```
+``` PHP
+function add($a, $b) {
+    return $a + $b;
+}
+```
