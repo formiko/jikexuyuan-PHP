@@ -59,7 +59,7 @@ Hello HTML<br>
     define('THE_VALUE', 100);
     ```
     这两种方法是有区别的
-# 函数
+## 函数
 ``` PHP
 function traceNum($a, $b) {
 //    echo 'a = ', $a, ' , b = ', $b, '<br>';
@@ -71,7 +71,7 @@ function add($a, $b) {
     return $a + $b;
 }
 ```
-# 流程控制
+## 流程控制
 * if else
     ``` PHP
     if($score >= 90) {
@@ -100,5 +100,47 @@ function add($a, $b) {
             return '可以';
         default:
             return '差';
+    }
+    ```
+## 循环
+* for
+    ``` PHP
+    for($i = 0; $i < 10; $i++ ) {
+        echo 'Hello ', $i, '<br>';
+    }
+    ```
+* while
+    ``` PHP
+    $i = 0;
+    while($i < 10) {
+        echo 'Hello ', $i, '<br>';
+        $i++;
+    }
+    ```
+* do while
+    ``` PHP
+    $i = 0;
+    do{
+        echo 'Hello ', $i, '<br>';
+        $i++;
+    }while($i < 10);
+    ```
+* break
+    ``` PHP
+    for($i = 0; $i < 10; $i++ ) {
+        echo 'Hello ', $i, '<br>';
+        if($i == 5) {
+            break;
+        }
+    }
+    ```
+* continue
+    ``` PHP
+    for($i = 0; $i < 10; $i++ ) {
+        echo 'Hello ', $i, '<br>';
+        if($i == 5) {
+            continue;
+        }
+        echo 'Run here ', $i , '<br>';
     }
     ```
