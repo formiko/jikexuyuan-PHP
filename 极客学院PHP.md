@@ -28,3 +28,20 @@
 * 软件环境：XAMPP PhpStorm Firefox
 ## 在Windows平台搭建PHP集成开发环境
 安装XAMPP、PhpStorm、Cygwin
+# PHP语法基础
+## PHP标记符
+``` HTML
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Php Tag</title>
+</head>
+<body>
+Hello HTML<br>
+<?php
+    echo 'Hello PHP';
+?>
+</body>
+</html>
+```
