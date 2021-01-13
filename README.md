@@ -179,3 +179,22 @@ echo $str2;
 $str2 = "$str<br>Objective-C $num";
 echo $str2;
 ```
+## PHP数组
+``` PHP
+<?php
+$arr = array();
+//$arr[0] = 'Hello';
+//$arr[1] = 'World';
+//$arr[2] = 2;
+//$arr[3] = 3.14;
+
+//for($i = 0; $i < 10; $i++) {
+//    array_push($arr, 'Item '.$i);
+//}
+
+//$arr['h'] = 'Hello';
+//$arr['w'] = 'World';
+
+$arr = array(0=>'jike', 1=>'iwen', 'h'=>'Hello', 'w'=>'World', 'name'=>'jikexueyuan');
+print_r($arr);
+```
