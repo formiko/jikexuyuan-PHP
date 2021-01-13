@@ -161,3 +161,21 @@ function traceNum() {
 }
 traceNum();
 ```
+# PHP常用功能
+## PHP字符串
+``` PHP
+<?php
+$str = 'Hello PHP Java C# C++';
+echo strpos($str, 'PH');
+$str1 = substr($str, 2, 3);
+echo $str1;
+$result = str_split($str, 2);
+print_r($result);
+$result = explode(' ', $str);
+print_r($result);
+$num = 100;
+$str2 = $str.'<br>Objective-C '.$num;
+echo $str2;
+$str2 = "$str<br>Objective-C $num";
+echo $str2;
+```
