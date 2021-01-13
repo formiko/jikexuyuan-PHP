@@ -198,3 +198,26 @@ $arr = array();
 $arr = array(0=>'jike', 1=>'iwen', 'h'=>'Hello', 'w'=>'World', 'name'=>'jikexueyuan');
 print_r($arr);
 ```
+# 面向对象相关特性
+## 类和命名空间
+``` PHP
+<?php
+//require_once 'Hello1.php';
+//$h = new Hello;
+//$h->sayHello();
+//
+//$d = new Desktop();
+//$d->work();
+
+//require_once 'jkxy/Hello.php';
+//require_once 'jikexueyuan/Hello.php';
+//$h = new \jikexueyuan\Hello();
+//$h->sayHello();
+//$h = new \jkxy\Hello();
+//$h->sayHello();
+
+require_once 'Man.php';
+$m = new Man(10, 'jikexueyuan');
+echo $m->getName();
+```
+
