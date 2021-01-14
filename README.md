@@ -220,4 +220,41 @@ require_once 'Man.php';
 $m = new Man(10, 'jikexueyuan');
 echo $m->getName();
 ```
+## 成员方法和类方法
+``` PHP
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<?php
+//require_once 'Hello1.php';
+//$h = new Hello;
+//$h->sayHello();
+//
+//$d = new Desktop();
+//$d->work();
 
+//require_once 'jkxy/Hello.php';
+//require_once 'jikexueyuan/Hello.php';
+//$h = new \jikexueyuan\Hello();
+//$h->sayHello();
+//$h = new \jkxy\Hello();
+//$h->sayHello();
+
+require_once 'Man.php';
+//$m = new Man(10, 'jikexueyuan');
+//echo $m->getName();
+
+//Man::sayHello();
+
+for($i = 0; $i < Man::MAX_MAN_NUM; $i++) {
+    new Man(10, 'jikexueyuan');
+}
+?>
+</body>
+</html>
+
+```
