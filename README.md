@@ -274,3 +274,11 @@ class Man extends People{
     }
 }
 ```
+# 常用库函数
+## 时间和日期
+``` PHP
+<?php
+//echo time();
+date_default_timezone_set('Asia/Shanghai');
+echo date('Y-m-d H:i:s', 2000);
+```
