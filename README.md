@@ -282,3 +282,17 @@ class Man extends People{
 date_default_timezone_set('Asia/Shanghai');
 echo date('Y-m-d H:i:s', 2000);
 ```
+## JSON格式数据的操作
+``` PHP
+<?php
+//$arr = array(1, 2, 5, 8, 'Hello', 'jikexueyuan', array('h'=>'Hello', 'name'=>'jikexueyuan'));
+//echo json_encode($arr);
+
+//$obj = array('h'=>'Hello', 'w'=>'World', array(3, 2, 1));
+//echo json_encode($obj);
+
+$jsonStr = '{"h":"Hello","w":"World","0":[3,2,1]}';
+$obj = json_decode($jsonStr);
+//print_r($obj);
+echo $obj->h;
+```
